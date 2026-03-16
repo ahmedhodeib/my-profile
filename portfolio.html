@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Ahmed Hodeib | Portfolio</title>
+
+<!-- Google Font -->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<!-- Bootstrap -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Font Awesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<style>
+
+html{
+scroll-behavior:smooth;
+}
+
+body{
+font-family:'Poppins',sans-serif;
+background:#0b1c2c;
+color:white;
+}
+
+/* NAVBAR */
+
+.navbar{
+background:#071421;
+}
+
+.navbar-brand{
+font-weight:700;
+font-size:1.4rem;
+color:#00e1ff !important;
+}
+
+.nav-link{
+color:white !important;
+margin-left:15px;
+}
+
+.nav-link:hover{
+color:#00e1ff !important;
+}
+
+/* HERO */
+
+.hero{
+height:100vh;
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
+background:linear-gradient(135deg,#0b1c2c,#102d4a);
+}
+
+.hero h1{
+font-size:3.5rem;
+font-weight:700;
+}
+
+.hero p{
+color:#cfd9e4;
+}
+
+.btn-accent{
+background:#00e1ff;
+color:#02121f;
+border:none;
+}
+
+.btn-accent:hover{
+background:#00bcd4;
+}
+
+/* SECTION SPACING */
+
+section{
+padding:80px 0;
+}
+
+/* ABOUT */
+
+.about-img{
+width:100%;
+border-radius:10px;
+}
+
+/* SKILLS */
+
+.skill-card{
+background:#0f2538;
+border:none;
+text-align:center;
+padding:30px;
+border-radius:10px;
+transition:0.3s;
+}
+
+.skill-card:hover{
+transform:translateY(-8px);
+box-shadow:0 10px 20px rgba(0,0,0,0.4);
+}
+
+.skill-card i{
+font-size:40px;
+color:#00e1ff;
+margin-bottom:15px;
+}
+
+/* PROJECTS */
+
+.project-card{
+background:#0f2538;
+border:none;
+border-radius:10px;
+overflow:hidden;
+transition:0.3s;
+}
+
+.project-card:hover{
+transform:translateY(-8px);
+box-shadow:0 10px 20px rgba(0,0,0,0.5);
+}
+
+.badge-tech{
+background:#00e1ff;
+color:#02121f;
+margin-right:5px;
+}
+
+/* CONTACT */
+
+.contact-icon{
+font-size:22px;
+color:#00e1ff;
+margin-right:10px;
+}
+
+/* FOOTER */
+
+footer{
+background:#071421;
+padding:25px;
+text-align:center;
+}
+
+footer a{
+color:#00e1ff;
+margin:0 10px;
+font-size:20px;
+}
+
+footer a:hover{
+color:white;
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+
+<nav class="navbar navbar-expand-lg fixed-top">
+<div class="container">
+
+<a class="navbar-brand" href="#">Ahmed Hodeib</a>
+
+<button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+<span class="navbar-toggler-icon"></span>
+</button>
+
+<div class="collapse navbar-collapse" id="navMenu">
+
+<ul class="navbar-nav ms-auto">
+
+<li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+<li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+<li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+<li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+
+</ul>
+
+</div>
+</div>
+</nav>
+
+<!-- HERO -->
+
+<section class="hero">
+
+<div class="container">
+
+<h1>Ahmed Hodeib</h1>
+
+<h4 class="mt-3">Front-End Developer | Open to Remote Opportunities</h4>
+
+<p class="mt-3">
+I build clean, responsive, and user-friendly web experiences
+</p>
+
+<div class="mt-4">
+
+<a href="#projects" class="btn btn-accent me-3">View My Work</a>
+
+<a href="#contact" class="btn btn-outline-light">Contact Me</a>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ABOUT -->
+
+<section id="about">
+
+<div class="container">
+
+<div class="row align-items-center">
+
+<div class="col-md-5 mb-4">
+
+<img src="https://via.placeholder.com/400x400" class="about-img">
+
+</div>
+
+<div class="col-md-7">
+
+<h2 class="mb-4">About Me</h2>
+
+<p>
+
+I am <strong>Ahmed Hodeib</strong>, a second-year student at the 
+Faculty of Computing and Data Science. I specialize in 
+front-end development and I am currently expanding my 
+skills into full-stack development.
+
+</p>
+
+<p>
+
+I enjoy building modern web interfaces and creating clean, 
+responsive user experiences using technologies like React, 
+JavaScript, and Bootstrap.
+
+</p>
+
+<p>
+
+Previously, I worked in customer service at Comcast/Xfinity, 
+which helped me develop strong communication and problem-solving 
+skills. I am fluent in English and open to remote front-end 
+developer opportunities.
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- SKILLS -->
+
+<section id="skills">
+
+<div class="container">
+
+<h2 class="text-center mb-5">Skills</h2>
+
+<div class="row g-4">
+
+<div class="col-md-3 col-6">
+<div class="skill-card">
+<i class="fab fa-html5"></i>
+<h6>HTML5</h6>
+</div>
+</div>
+
+<div class="col-md-3 col-6">
+<div class="skill-card">
+<i class="fab fa-css3-alt"></i>
+<h6>CSS3</h6>
+</div>
+</div>
+
+<div class="col-md-3 col-6">
+<div class="skill-card">
+<i class="fab fa-js"></i>
+<h6>JavaScript</h6>
+</div>
+</div>
+
+<div class="col-md-3 col-6">
+<div class="skill-card">
+<i class="fab fa-react"></i>
+<h6>React.js</h6>
+</div>
+</div>
+
+<div class="col-md-3 col-6">
+<div class="skill-card">
+<i class="fab fa-bootstrap"></i>
+<h6>Bootstrap</h6>
+</div>
+</div>
+
+<div class="col-md-3 col-6">
+<div class="skill-card">
+<i class="fab fa-python"></i>
+<h6>Python</h6>
+</div>
+</div>
+
+<div class="col-md-3 col-6">
+<div class="skill-card">
+<i class="fab fa-git-alt"></i>
+<h6>Git</h6>
+</div>
+</div>
+
+<div class="col-md-3 col-6">
+<div class="skill-card">
+<i class="fas fa-mobile-alt"></i>
+<h6>Responsive Design</h6>
+</div>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- PROJECTS -->
+
+<section id="projects">
+
+<div class="container">
+
+<h2 class="text-center mb-5">Projects</h2>
+
+<div class="row g-4">
+
+<!-- PROJECT 1 -->
+
+<div class="col-md-4">
+
+<div class="project-card">
+
+<img src="https://via.placeholder.com/600x400" class="img-fluid">
+
+<div class="p-4">
+
+<h5>Responsive Gym Landing Page</h5>
+
+<p>
+A modern responsive landing page for a fitness brand.
+</p>
+
+<span class="badge badge-tech">HTML</span>
+<span class="badge badge-tech">CSS</span>
+<span class="badge badge-tech">Bootstrap</span>
+
+<div class="mt-3">
+
+<a href="#" class="btn btn-accent btn-sm me-2">Live Demo</a>
+<a href="#" class="btn btn-outline-light btn-sm">GitHub</a>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<!-- PROJECT 2 -->
+
+<div class="col-md-4">
+
+<div class="project-card">
+
+<img src="https://via.placeholder.com/600x400" class="img-fluid">
+
+<div class="p-4">
+
+<h5>React To-Do App</h5>
+
+<p>
+A productivity app built with React for managing daily tasks.
+</p>
+
+<span class="badge badge-tech">React</span>
+<span class="badge badge-tech">JavaScript</span>
+
+<div class="mt-3">
+
+<a href="#" class="btn btn-accent btn-sm me-2">Live Demo</a>
+<a href="#" class="btn btn-outline-light btn-sm">GitHub</a>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<!-- PROJECT 3 -->
+
+<div class="col-md-4">
+
+<div class="project-card">
+
+<img src="https://via.placeholder.com/600x400" class="img-fluid">
+
+<div class="p-4">
+
+<h5>Movie Search App</h5>
+
+<p>
+Search movies using an API with dynamic results.
+</p>
+
+<span class="badge badge-tech">JavaScript</span>
+<span class="badge badge-tech">API</span>
+
+<div class="mt-3">
+
+<a href="#" class="btn btn-accent btn-sm me-2">Live Demo</a>
+<a href="https://github.com/users/ahmedhodeib/projects/2/views/1?template_dialog_tab=featured&system_template=kanban" class="btn btn-outline-light btn-sm">GitHub</a>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- CONTACT -->
+
+<section id="contact">
+
+<div class="container">
+
+<h2 class="text-center mb-5">Contact Me</h2>
+
+<div class="row">
+
+<div class="col-md-5 mb-4">
+
+<p><a href="mailto:ahmedhodeib9@gmail.com" target="_blank" style="text-decoration: none; color: white;"><i class="fas fa-envelope contact-icon"></i>  ahmedhodeib9@gmail.com</a></p>
+
+<p><a href="https://www.linkedin.com/in/ahmed-hodeib-391497361" target="_blank" style="text-decoration: none; color: white;"><i class="fab fa-linkedin contact-icon"></i> www.linkedin.com/in/ahmed-hodeib</a></p>
+
+</div>
+
+<div class="col-md-7">
+
+<form>
+
+<div class="mb-3">
+<input type="text" class="form-control" placeholder="Your Name">
+</div>
+
+<div class="mb-3">
+<input type="email" class="form-control" placeholder="Your Email">
+</div>
+
+<div class="mb-3">
+<textarea class="form-control" rows="4" placeholder="Message"></textarea>
+</div>
+
+<button class="btn btn-accent">Send Message</button>
+
+</form>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- FOOTER -->
+
+<footer>
+
+<p>© 2025 Ahmed Hodeib. All rights reserved.</p>
+
+<div>
+
+<a href="https://www.linkedin.com/in/ahmed-hodeib-391497361"><i class="fab fa-linkedin"></i></a>
+<a href="https://github.com/ahmedhodeib"><i class="fab fa-github"></i></a>
+
+</div>
+
+</footer>
+
+<!-- Bootstrap JS -->
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
